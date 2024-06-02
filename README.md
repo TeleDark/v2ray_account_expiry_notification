@@ -2,16 +2,11 @@
 
 This Telegram bot is designed to notify the admin whenever a customer's VPN account expires. The bot automatically sends a message to the admin, ensuring timely updates on the status of customer accounts.
 
-## Setup
+## Install & Upgrade
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/TeleDark/v2ray_account_expiry_notification.git
-    ```
-2. **Install the required packages**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+```
+bash <(curl -Ls https://raw.githubusercontent.com/TeleDark/2ray_account_expiry_notification/main/install.sh)
+```
 3. **Configure the bot**:
    - Get your bot token from [BotFather](https://t.me/BotFather) on Telegram.
    - Get your chat ID from [userinfobot](https://t.me/userinfobot) on Telegram.
@@ -19,10 +14,8 @@ This Telegram bot is designed to notify the admin whenever a customer's VPN acco
 
 4. **Run the bot**:
     ```bash
-    python utils.py
+    reboot
     ```
-    or `reboot` after installing the app.
-
 
 ## Usage
 
