@@ -1,0 +1,17 @@
+token_bot: "" #Get your bot token from https://t.me/BotFather on Telegram.
+chat_id: "" #Get your chat ID from https://t.me/userinfobot on Telegram.
+message_1: "" #for future!
+message_2: "" #for future!
+message_3: "" #for future!
+
+
+# If you have other panels, please add them here.
+panels:
+  - url: http://example.com:1234/
+    username: admin
+    password: admin
+
+
+#  - url: http://example.com:1234/
+#    username: admin
+#    password: admin
