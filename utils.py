@@ -90,7 +90,7 @@ def main():
         inactives_list = load_from_pickle(inactives_file)
         check_disable(data, inactives_list)
         check_enable(data, inactives_list)
-        sleep(15)
+        sleep(300)
 
 
 if __name__ == "__main__":
