@@ -14,10 +14,9 @@ def send_message(msg):
 
 
 def read_json():
-    os.system('python3 ./login.py')
+    os.system(f'python3 {login_file}')
     with open(json_file) as f:
         return json.load(f)
-
 
 def save_to_pickle(data, filename):
     try:
